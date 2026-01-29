@@ -1,13 +1,28 @@
-name: Automation Test
+name: Daily Content Generator
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '0 3 * * *'   # once per day (recommended)
   workflow_dispatch:
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Test echo
-        run: echo "Automation is alive"
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run generator
+        run: python scripts/generate.py
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "auto-bot"
+          git config --global user.email "bot@users.noreply.github.com"
+          git add .
+          git commit -m "Auto-generated content" || echo "No changes"
+          git push
