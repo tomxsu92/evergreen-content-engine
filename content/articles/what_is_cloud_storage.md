@@ -1,6 +1,6 @@
 ---
 title: What is cloud storage
-date: 2026-01-31
+date: 2026-02-01
 description: Educational guide about what is cloud storage.
 ---
 
