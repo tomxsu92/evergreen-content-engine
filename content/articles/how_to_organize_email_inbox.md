@@ -1,6 +1,6 @@
 ---
 title: How to organize email inbox
-date: 2026-01-29
+date: 2026-02-04
 description: Educational guide about how to organize email inbox.
 ---
 
