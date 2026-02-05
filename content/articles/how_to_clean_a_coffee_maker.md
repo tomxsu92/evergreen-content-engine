@@ -1,6 +1,6 @@
 ---
 title: How to clean a coffee maker
-date: 2026-01-30
+date: 2026-02-05
 description: Educational guide about how to clean a coffee maker.
 ---
 
