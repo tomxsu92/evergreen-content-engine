@@ -46,7 +46,7 @@
   </ul>
 
   <script>
- fetch("/articles.json")
+ fetch(window.location.pathname.replace(/\/$/, "") + "/articles.json")
    .then(data => {
   console.log("ARTICLES LOADED:", data);
   return data;
