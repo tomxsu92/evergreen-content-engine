@@ -46,7 +46,7 @@
   </ul>
 
   <script>
-  fetch("articles.json")
+ fetch("/articles.json")
     .then(response => response.json())
     .then(articles => {
       const list = document.getElementById("article-list");
