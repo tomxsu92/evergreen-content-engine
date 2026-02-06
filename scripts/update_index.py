@@ -8,7 +8,7 @@ articles = []
 
 for root, _, files in os.walk(ARTICLES_DIR):
     for file in files:
-        if file.endswith(".html"):
+        if file.endswith((".md", ".html")):
             full_path = os.path.join(root, file).replace("\\", "/")
             articles.append({
                 "title": file.replace(".html", "").replace("-", " ").title(),
