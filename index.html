@@ -47,6 +47,10 @@
 
   <script>
  fetch("/articles.json")
+   .then(data => {
+  console.log("ARTICLES LOADED:", data);
+  return data;
+})
     .then(response => response.json())
     .then(articles => {
       const list = document.getElementById("article-list");
