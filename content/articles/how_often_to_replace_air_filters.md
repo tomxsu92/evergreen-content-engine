@@ -1,6 +1,6 @@
 ---
 title: How often to replace air filters
-date: 2026-02-02
+date: 2026-02-07
 description: Educational guide about how often to replace air filters.
 ---
 
