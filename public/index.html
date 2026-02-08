@@ -2,79 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Evergreen Content Hub</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-    }
-    h1 {
-      text-align: center;
-    }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    li {
-      margin: 10px 0;
-    }
-    a {
-      text-decoration: none;
-      color: #0066cc;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .note {
-      text-align: center;
-      color: #666;
-      font-size: 0.9em;
-    }
-  </style>
+  <title>Evergreen Content Engine</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <h1>Evergreen Articles</h1>
-  <p class="note">This site is updated automatically.</p>
-
-  <ul id="article-list">
-    <li>Loading articles…</li>
-  </ul>
+  <h1>Latest Articles</h1>
+  <ul id="articles"></ul>
 
   <script>
- fetch('/evergreen-content-engine/articles.json')
-   .then(data => {
-  console.log("ARTICLES LOADED:", data);
-  return data;
-})
-    .then(response => response.json())
-    .then(articles => {
-      const list = document.getElementById("article-list");
-      list.innerHTML = "";
-
-      articles.forEach(article => {
-        const li = document.createElement("li");
-        const a = document.createElement("a");
-        a.href = article.url;
-        a.textContent = article.title;
-        li.appendChild(a);
-        list.appendChild(li);
+    fetch("/evergreen-content-engine/articles.json")
+      .then(res => res.json())
+      .then(data => {
+        const list = document.getElementById("articles");
+        if (!data.length) {
+          list.innerHTML = "<li>No articles yet</li>";
+          return;
+        }
+        data.forEach(article => {
+          const li = document.createElement("li");
+          li.innerHTML = `<a href="${article.url}">${article.title}</a>`;
+          list.appendChild(li);
+        });
+      })
+      .catch(err => {
+        document.getElementById("articles").innerHTML =
+          "<li>Article index not found</li>";
+        console.error(err);
       });
-
-      if (articles.length === 0) {
-        list.innerHTML = "<li>No articles yet.</li>";
-      }
-    })
-    .catch(() => {
-      document.getElementById("article-list").innerHTML =
-        "<li>Articles index not found.</li>";
-    });
-</script>
-
-
+  </script>
 </body>
 </html>
