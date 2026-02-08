@@ -1,18 +1,20 @@
 import os
 import json
 
-ARTICLES_DIR = "content/articles"
-OUTPUT_FILE = "articles.json"
+ARTICLES_DIR = "public/articles"
+OUTPUT_FILE = "public/articles.json"
 
 articles = []
 
 for root, _, files in os.walk(ARTICLES_DIR):
     for file in files:
-        if file.endswith((".md", ".html")):
+        if file.endswith(".html"):
             full_path = os.path.join(root, file).replace("\\", "/")
+            url = full_path.replace("public/", "/")
+
             articles.append({
                 "title": file.replace(".html", "").replace("-", " ").title(),
-                "url": full_path
+                "url": url
             })
 
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
