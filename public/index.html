@@ -46,7 +46,7 @@
   </ul>
 
   <script>
- fetch(window.location.pathname.replace(/\/$/, "") + "/articles.json")
+ fetch('/evergreen-content-engine/articles.json')
    .then(data => {
   console.log("ARTICLES LOADED:", data);
   return data;
