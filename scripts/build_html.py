@@ -2,32 +2,31 @@ import os
 import markdown
 from pathlib import Path
 
-ARTICLES_DIR = "content/articles"
-OUTPUT_DIR = "public/articles"
+SRC_DIR = Path("content/articles")
+OUT_DIR = Path("public/articles")
 
-os.makedirs(OUTPUT_DIR, exist_ok=True)
+OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-for md_file in Path(ARTICLES_DIR).glob("*.md"):
-    with open(md_file, "r", encoding="utf-8") as f:
-        html = markdown.markdown(f.read())
+for md_file in SRC_DIR.glob("*.md"):
+    html_body = markdown.markdown(md_file.read_text(encoding="utf-8"))
 
-    output_file = Path(OUTPUT_DIR) / (md_file.stem + ".html")
+    output_file = OUT_DIR / f"{md_file.stem}.html"
 
-    with open(output_file, "w", encoding="utf-8") as f:
-        f.write(f"""
+    output_file.write_text(f"""
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>{md_file.stem.replace("_", " ").title()}</title>
+  <meta charset="UTF-8">
+  <title>{md_file.stem.replace('-', ' ').title()}</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
   <article>
-    {html}
+    {html_body}
   </article>
+  <p><a href="../index.html">← Back to home</a></p>
 </body>
 </html>
-""")
+""", encoding="utf-8")
 
-print("HTML build complete")
+print("✅ HTML pages built")
