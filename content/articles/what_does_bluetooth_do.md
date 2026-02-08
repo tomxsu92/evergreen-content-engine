@@ -1,6 +1,6 @@
 ---
 title: What does Bluetooth do
-date: 2026-02-03
+date: 2026-02-08
 description: Educational guide about what does bluetooth do.
 ---
 
