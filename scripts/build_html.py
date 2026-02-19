@@ -3,7 +3,7 @@ import markdown
 from pathlib import Path
 
 SRC_DIR = Path("content/articles")
-OUT_DIR = Path("public/articles")
+OUT_DIR = Path("articles")
 
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 
