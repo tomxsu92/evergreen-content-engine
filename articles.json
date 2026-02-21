@@ -1,30 +1,38 @@
 [
   {
-    "title": "Example 20260208",
-    "url": "/evergreen-content-engine/articles/example-20260208.html"
+    "title": "How to clean a coffee maker",
+    "date": "2026-02-05",
+    "description": "Educational guide about how to clean a coffee maker.",
+    "slug": "how_to_clean_a_coffee_maker"
   },
   {
-    "title": "How_To_Organize_Email_Inbox",
-    "url": "/evergreen-content-engine/articles/how_to_organize_email_inbox.html"
+    "title": "What does Bluetooth do",
+    "date": "2026-02-08",
+    "description": "Educational guide about what does bluetooth do.",
+    "slug": "what_does_bluetooth_do"
   },
   {
-    "title": "How_To_Clean_A_Coffee_Maker",
-    "url": "/evergreen-content-engine/articles/how_to_clean_a_coffee_maker.html"
+    "title": "How often to replace air filters",
+    "date": "2026-02-07",
+    "description": "Educational guide about how often to replace air filters.",
+    "slug": "how_often_to_replace_air_filters"
   },
   {
-    "title": "Example 20260209",
-    "url": "/evergreen-content-engine/articles/example-20260209.html"
+    "title": "",
+    "date": "",
+    "description": "",
+    "slug": ""
   },
   {
-    "title": "How_Often_To_Replace_Air_Filters",
-    "url": "/evergreen-content-engine/articles/how_often_to_replace_air_filters.html"
+    "title": "How to organize email inbox",
+    "date": "2026-02-04",
+    "description": "Educational guide about how to organize email inbox.",
+    "slug": "how_to_organize_email_inbox"
   },
   {
-    "title": "What_Is_Cloud_Storage",
-    "url": "/evergreen-content-engine/articles/what_is_cloud_storage.html"
-  },
-  {
-    "title": "What_Does_Bluetooth_Do",
-    "url": "/evergreen-content-engine/articles/what_does_bluetooth_do.html"
+    "title": "What is cloud storage",
+    "date": "2026-02-06",
+    "description": "Educational guide about what is cloud storage.",
+    "slug": "what_is_cloud_storage"
   }
 ]
