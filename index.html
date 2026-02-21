@@ -10,17 +10,26 @@
   <ul id="articles"></ul>
 
   <script>
-    fetch("/evergreen-content-engine/articles.json")
+    fetch("articles.json")
       .then(res => res.json())
       .then(data => {
         const list = document.getElementById("articles");
+
         if (!data.length) {
           list.innerHTML = "<li>No articles yet</li>";
           return;
         }
+
         data.forEach(article => {
+          if (!article.slug) return;
+
           const li = document.createElement("li");
-          li.innerHTML = `<a href="${article.url}">${article.title}</a>`;
+          li.innerHTML = `
+            <a href="articles/${article.slug}.html">
+              ${article.title}
+            </a>
+            <p>${article.description || ""}</p>
+          `;
           list.appendChild(li);
         });
       })
