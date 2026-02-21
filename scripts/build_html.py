@@ -15,7 +15,6 @@ def slugify(text):
 for md_file in CONTENT_DIR.glob("*.md"):
     content = md_file.read_text(encoding="utf-8")
 
-    # Extract front matter
     parts = content.split("---")
     if len(parts) < 3:
         continue
@@ -36,7 +35,6 @@ for md_file in CONTENT_DIR.glob("*.md"):
             description = line.replace("description:", "").strip()
 
     slug = slugify(title)
-
     html_body = markdown.markdown(body)
 
     html_content = f"""<!DOCTYPE html>
@@ -44,7 +42,7 @@ for md_file in CONTENT_DIR.glob("*.md"):
 <head>
 <meta charset="UTF-8">
 <title>{title}</title>
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="../style.css">
 </head>
 <body>
 
@@ -55,7 +53,7 @@ for md_file in CONTENT_DIR.glob("*.md"):
 
 {html_body}
 
-<p><a href="/">← Back to home</a></p>
+<p><a href="../index.html">← Back to home</a></p>
 
 </div>
 
@@ -73,7 +71,6 @@ for md_file in CONTENT_DIR.glob("*.md"):
         "slug": slug
     })
 
-# Save articles.json
 with open("articles.json", "w", encoding="utf-8") as f:
     json.dump(articles_data, f, indent=2)
 
