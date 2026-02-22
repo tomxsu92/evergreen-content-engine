@@ -6,12 +6,25 @@ import re
 MARKDOWN_DIR = Path("content/articles")
 MARKDOWN_DIR.mkdir(parents=True, exist_ok=True)
 
-TOPICS = [
-    "How to Organize Your Email Inbox",
-    "How to Clean a Coffee Maker",
-    "How Often to Replace Air Filters",
-    "What Does Bluetooth Do?",
-    "What Is Cloud Storage?"
+BASE_TOPICS = [
+    "Productivity",
+    "Home Maintenance",
+    "Technology Basics",
+    "Personal Finance",
+    "Digital Organization",
+    "Time Management",
+    "Computer Skills",
+    "Household Cleaning",
+    "Internet Safety",
+    "Smart Devices"
+]
+
+TEMPLATES = [
+    "Beginner Guide to {}",
+    "How {} Works",
+    "Understanding {} Made Simple",
+    "Step-by-Step {} Guide",
+    "Complete Introduction to {}"
 ]
 
 def slugify(title):
@@ -21,56 +34,54 @@ def build_article(title):
     keyword = title.lower()
 
     return f"""
-## What Is {title}?
+## Introduction
 
-{title} is a common question people search for when trying to improve efficiency, solve a problem, or understand a tool better. This guide explains it clearly and practically.
+{title} is an important topic that many people want to understand better. This guide provides a clear and practical explanation.
 
 ---
 
 ## Why It Matters
 
-Understanding {keyword} helps you:
-
-- Save time
-- Avoid common mistakes
-- Improve long-term efficiency
-- Make smarter decisions
+Understanding {keyword} can help improve efficiency, reduce mistakes, and build confidence.
 
 ---
 
-## Step-by-Step Guide to {title}
+## Core Concepts
 
-### Step 1: Understand the Basics
-Start by identifying the main goal and common problems related to this topic.
+### 1. Foundation
+Start by learning the basic principles behind {keyword}.
 
-### Step 2: Apply Best Practices
-Follow proven methods used by professionals to get consistent results.
+### 2. Practical Application
+Apply these ideas consistently to see real improvement.
 
-### Step 3: Maintain and Optimize
-Regularly review and improve your process to maximize results.
+### 3. Optimization
+Review and refine your approach regularly.
 
 ---
 
-## Common Mistakes to Avoid
+## Common Mistakes
 
-- Ignoring maintenance
-- Overcomplicating the process
-- Not reviewing performance regularly
+- Skipping fundamentals
+- Overcomplicating processes
+- Ignoring consistency
 
 ---
 
 ## Final Thoughts
 
-By understanding and applying these principles of {keyword}, you can improve outcomes and avoid unnecessary frustration.
+With a structured approach to {keyword}, you can build long-term knowledge and better results.
 """
 
 def generate_article():
     today = datetime.now().strftime("%Y-%m-%d")
-    title = random.choice(TOPICS)
-    slug = slugify(title)
 
-    filename = f"{today}_{slug}.md"
-    markdown_path = MARKDOWN_DIR / filename
+    topic = random.choice(BASE_TOPICS)
+    template = random.choice(TEMPLATES)
+
+    title = template.format(topic)
+    slug = slugify(f"{today}_{title}")
+
+    markdown_path = MARKDOWN_DIR / f"{slug}.md"
 
     article_body = build_article(title)
 
@@ -87,7 +98,7 @@ description: Educational guide about {title.lower()}.
 
     markdown_path.write_text(markdown_content, encoding="utf-8")
 
-    print(f"Article generated: {filename}")
+    print(f"Article generated: {slug}.md")
 
 if __name__ == "__main__":
     generate_article()
