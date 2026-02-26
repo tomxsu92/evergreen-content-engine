@@ -1,15 +1,9 @@
 [
   {
-    "title": "How to clean a coffee maker",
-    "date": "2026-02-05",
-    "description": "Educational guide about how to clean a coffee maker.",
-    "slug": "how_to_clean_a_coffee_maker"
-  },
-  {
-    "title": "What does Bluetooth do",
-    "date": "2026-02-08",
-    "description": "Educational guide about what does bluetooth do.",
-    "slug": "what_does_bluetooth_do"
+    "title": "Beginner Guide to Digital Organization",
+    "date": "2026-02-25",
+    "description": "Educational guide about beginner guide to digital organization.",
+    "slug": "beginner_guide_to_digital_organization"
   },
   {
     "title": "How Productivity Works",
@@ -18,28 +12,34 @@
     "slug": "how_productivity_works"
   },
   {
-    "title": "How often to replace air filters",
-    "date": "2026-02-07",
-    "description": "Educational guide about how often to replace air filters.",
-    "slug": "how_often_to_replace_air_filters"
-  },
-  {
     "title": "How to Clean a Coffee Maker",
     "date": "2026-02-22",
     "description": "Educational guide about how to clean a coffee maker.",
     "slug": "how_to_clean_a_coffee_maker"
   },
   {
-    "title": "",
-    "date": "",
-    "description": "",
-    "slug": ""
+    "title": "What is cloud storage",
+    "date": "2026-02-06",
+    "description": "Educational guide about what is cloud storage.",
+    "slug": "what_is_cloud_storage"
   },
   {
-    "title": "Beginner Guide to Digital Organization",
-    "date": "2026-02-25",
-    "description": "Educational guide about beginner guide to digital organization.",
-    "slug": "beginner_guide_to_digital_organization"
+    "title": "How to clean a coffee maker",
+    "date": "2026-02-05",
+    "description": "Educational guide about how to clean a coffee maker.",
+    "slug": "how_to_clean_a_coffee_maker"
+  },
+  {
+    "title": "How often to replace air filters",
+    "date": "2026-02-07",
+    "description": "Educational guide about how often to replace air filters.",
+    "slug": "how_often_to_replace_air_filters"
+  },
+  {
+    "title": "What does Bluetooth do",
+    "date": "2026-02-08",
+    "description": "Educational guide about what does bluetooth do.",
+    "slug": "what_does_bluetooth_do"
   },
   {
     "title": "How to organize email inbox",
@@ -54,9 +54,15 @@
     "slug": "step_by_step_home_maintenance_guide"
   },
   {
-    "title": "What is cloud storage",
-    "date": "2026-02-06",
-    "description": "Educational guide about what is cloud storage.",
-    "slug": "what_is_cloud_storage"
+    "title": "",
+    "date": "",
+    "description": "",
+    "slug": ""
+  },
+  {
+    "title": "Complete Introduction to Time Management",
+    "date": "2026-02-26",
+    "description": "Educational guide about complete introduction to time management.",
+    "slug": "complete_introduction_to_time_management"
   }
 ]
