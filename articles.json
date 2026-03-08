@@ -118,5 +118,11 @@
     "date": "2026-02-26",
     "description": "Educational guide about complete introduction to time management.",
     "slug": "complete_introduction_to_time_management"
+  },
+  {
+    "title": "Beginner Guide to Time Management",
+    "date": "2026-03-08",
+    "description": "Educational guide about beginner guide to time management.",
+    "slug": "beginner_guide_to_time_management"
   }
 ]
