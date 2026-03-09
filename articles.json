@@ -124,5 +124,11 @@
     "date": "2026-03-08",
     "description": "Educational guide about beginner guide to time management.",
     "slug": "beginner_guide_to_time_management"
+  },
+  {
+    "title": "How Productivity Works",
+    "date": "2026-03-09",
+    "description": "Educational guide about how productivity works.",
+    "slug": "how_productivity_works"
   }
 ]
