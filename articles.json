@@ -214,5 +214,11 @@
     "date": "2026-03-17",
     "description": "Educational guide about how technology basics works.",
     "slug": "how_technology_basics_works"
+  },
+  {
+    "title": "Understanding Digital Organization Made Simple",
+    "date": "2026-03-24",
+    "description": "Educational guide about understanding digital organization made simple.",
+    "slug": "understanding_digital_organization_made_simple"
   }
 ]
