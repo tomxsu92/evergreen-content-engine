@@ -1,117 +1,9 @@
 [
   {
-    "title": "Understanding Personal Finance Made Simple",
-    "date": "2026-03-02",
-    "description": "Educational guide about understanding personal finance made simple.",
-    "slug": "understanding_personal_finance_made_simple"
-  },
-  {
-    "title": "Step-by-Step Personal Finance Guide",
-    "date": "2026-03-01",
-    "description": "Educational guide about step-by-step personal finance guide.",
-    "slug": "step_by_step_personal_finance_guide"
-  },
-  {
-    "title": "Beginner Guide to Digital Organization",
-    "date": "2026-02-25",
-    "description": "Educational guide about beginner guide to digital organization.",
-    "slug": "beginner_guide_to_digital_organization"
-  },
-  {
-    "title": "How Productivity Works",
-    "date": "2026-02-24",
-    "description": "Educational guide about how productivity works.",
-    "slug": "how_productivity_works"
-  },
-  {
-    "title": "Understanding Technology Basics Made Simple",
-    "date": "2026-03-20",
-    "description": "Educational guide about understanding technology basics made simple.",
-    "slug": "understanding_technology_basics_made_simple"
-  },
-  {
-    "title": "Complete Introduction to Personal Finance",
-    "date": "2026-03-04",
-    "description": "Educational guide about complete introduction to personal finance.",
-    "slug": "complete_introduction_to_personal_finance"
-  },
-  {
-    "title": "Understanding Digital Organization Made Simple",
-    "date": "2026-03-25",
-    "description": "Educational guide about understanding digital organization made simple.",
-    "slug": "understanding_digital_organization_made_simple"
-  },
-  {
     "title": "Understanding Time Management Made Simple",
-    "date": "2026-03-12",
+    "date": "2026-03-15",
     "description": "Educational guide about understanding time management made simple.",
     "slug": "understanding_time_management_made_simple"
-  },
-  {
-    "title": "How to Clean a Coffee Maker",
-    "date": "2026-02-22",
-    "description": "Educational guide about how to clean a coffee maker.",
-    "slug": "how_to_clean_a_coffee_maker"
-  },
-  {
-    "title": "Understanding Technology Basics Made Simple",
-    "date": "2026-02-27",
-    "description": "Educational guide about understanding technology basics made simple.",
-    "slug": "understanding_technology_basics_made_simple"
-  },
-  {
-    "title": "Understanding Internet Safety Made Simple",
-    "date": "2026-03-11",
-    "description": "Educational guide about understanding internet safety made simple.",
-    "slug": "understanding_internet_safety_made_simple"
-  },
-  {
-    "title": "How Technology Basics Works",
-    "date": "2026-03-03",
-    "description": "Educational guide about how technology basics works.",
-    "slug": "how_technology_basics_works"
-  },
-  {
-    "title": "What is cloud storage",
-    "date": "2026-02-06",
-    "description": "Educational guide about what is cloud storage.",
-    "slug": "what_is_cloud_storage"
-  },
-  {
-    "title": "How to clean a coffee maker",
-    "date": "2026-02-05",
-    "description": "Educational guide about how to clean a coffee maker.",
-    "slug": "how_to_clean_a_coffee_maker"
-  },
-  {
-    "title": "Complete Introduction to Smart Devices",
-    "date": "2026-03-06",
-    "description": "Educational guide about complete introduction to smart devices.",
-    "slug": "complete_introduction_to_smart_devices"
-  },
-  {
-    "title": "How often to replace air filters",
-    "date": "2026-02-07",
-    "description": "Educational guide about how often to replace air filters.",
-    "slug": "how_often_to_replace_air_filters"
-  },
-  {
-    "title": "Complete Introduction to Time Management",
-    "date": "2026-03-14",
-    "description": "Educational guide about complete introduction to time management.",
-    "slug": "complete_introduction_to_time_management"
-  },
-  {
-    "title": "Step-by-Step Home Maintenance Guide",
-    "date": "2026-03-22",
-    "description": "Educational guide about step-by-step home maintenance guide.",
-    "slug": "step_by_step_home_maintenance_guide"
-  },
-  {
-    "title": "What does Bluetooth do",
-    "date": "2026-02-08",
-    "description": "Educational guide about what does bluetooth do.",
-    "slug": "what_does_bluetooth_do"
   },
   {
     "title": "Beginner Guide to Time Management",
@@ -120,16 +12,10 @@
     "slug": "beginner_guide_to_time_management"
   },
   {
-    "title": "Step-by-Step Time Management Guide",
-    "date": "2026-02-28",
-    "description": "Educational guide about step-by-step time management guide.",
-    "slug": "step_by_step_time_management_guide"
-  },
-  {
-    "title": "Complete Introduction to Internet Safety",
-    "date": "2026-03-21",
-    "description": "Educational guide about complete introduction to internet safety.",
-    "slug": "complete_introduction_to_internet_safety"
+    "title": "Step-by-Step Personal Finance Guide",
+    "date": "2026-03-01",
+    "description": "Educational guide about step-by-step personal finance guide.",
+    "slug": "step_by_step_personal_finance_guide"
   },
   {
     "title": "Complete Introduction to Home Maintenance",
@@ -138,26 +24,32 @@
     "slug": "complete_introduction_to_home_maintenance"
   },
   {
+    "title": "Understanding Digital Organization Made Simple",
+    "date": "2026-03-24",
+    "description": "Educational guide about understanding digital organization made simple.",
+    "slug": "understanding_digital_organization_made_simple"
+  },
+  {
+    "title": "Understanding Technology Basics Made Simple",
+    "date": "2026-02-27",
+    "description": "Educational guide about understanding technology basics made simple.",
+    "slug": "understanding_technology_basics_made_simple"
+  },
+  {
+    "title": "Understanding Personal Finance Made Simple",
+    "date": "2026-03-02",
+    "description": "Educational guide about understanding personal finance made simple.",
+    "slug": "understanding_personal_finance_made_simple"
+  },
+  {
+    "title": "How to clean a coffee maker",
+    "date": "2026-02-05",
+    "description": "Educational guide about how to clean a coffee maker.",
+    "slug": "how_to_clean_a_coffee_maker"
+  },
+  {
     "title": "Understanding Time Management Made Simple",
     "date": "2026-03-07",
-    "description": "Educational guide about understanding time management made simple.",
-    "slug": "understanding_time_management_made_simple"
-  },
-  {
-    "title": "Complete Introduction to Computer Skills",
-    "date": "2026-03-26",
-    "description": "Educational guide about complete introduction to computer skills.",
-    "slug": "complete_introduction_to_computer_skills"
-  },
-  {
-    "title": "How to organize email inbox",
-    "date": "2026-02-04",
-    "description": "Educational guide about how to organize email inbox.",
-    "slug": "how_to_organize_email_inbox"
-  },
-  {
-    "title": "Understanding Time Management Made Simple",
-    "date": "2026-03-15",
     "description": "Educational guide about understanding time management made simple.",
     "slug": "understanding_time_management_made_simple"
   },
@@ -168,22 +60,16 @@
     "slug": "step_by_step_home_maintenance_guide"
   },
   {
-    "title": "",
-    "date": "",
-    "description": "",
-    "slug": ""
+    "title": "Complete Introduction to Time Management",
+    "date": "2026-03-14",
+    "description": "Educational guide about complete introduction to time management.",
+    "slug": "complete_introduction_to_time_management"
   },
   {
-    "title": "Understanding Internet Safety Made Simple",
-    "date": "2026-03-16",
-    "description": "Educational guide about understanding internet safety made simple.",
-    "slug": "understanding_internet_safety_made_simple"
-  },
-  {
-    "title": "Complete Introduction to Digital Organization",
-    "date": "2026-03-10",
-    "description": "Educational guide about complete introduction to digital organization.",
-    "slug": "complete_introduction_to_digital_organization"
+    "title": "Beginner Guide to Digital Organization",
+    "date": "2026-02-25",
+    "description": "Educational guide about beginner guide to digital organization.",
+    "slug": "beginner_guide_to_digital_organization"
   },
   {
     "title": "Complete Introduction to Time Management",
@@ -192,16 +78,124 @@
     "slug": "complete_introduction_to_time_management"
   },
   {
-    "title": "Beginner Guide to Time Management",
-    "date": "2026-03-08",
-    "description": "Educational guide about beginner guide to time management.",
-    "slug": "beginner_guide_to_time_management"
+    "title": "What is cloud storage",
+    "date": "2026-02-06",
+    "description": "Educational guide about what is cloud storage.",
+    "slug": "what_is_cloud_storage"
+  },
+  {
+    "title": "Complete Introduction to Personal Finance",
+    "date": "2026-03-27",
+    "description": "Educational guide about complete introduction to personal finance.",
+    "slug": "complete_introduction_to_personal_finance"
+  },
+  {
+    "title": "Understanding Internet Safety Made Simple",
+    "date": "2026-03-11",
+    "description": "Educational guide about understanding internet safety made simple.",
+    "slug": "understanding_internet_safety_made_simple"
+  },
+  {
+    "title": "Step-by-Step Home Maintenance Guide",
+    "date": "2026-03-22",
+    "description": "Educational guide about step-by-step home maintenance guide.",
+    "slug": "step_by_step_home_maintenance_guide"
+  },
+  {
+    "title": "Understanding Time Management Made Simple",
+    "date": "2026-03-12",
+    "description": "Educational guide about understanding time management made simple.",
+    "slug": "understanding_time_management_made_simple"
   },
   {
     "title": "How Productivity Works",
     "date": "2026-03-09",
     "description": "Educational guide about how productivity works.",
     "slug": "how_productivity_works"
+  },
+  {
+    "title": "Understanding Internet Safety Made Simple",
+    "date": "2026-03-16",
+    "description": "Educational guide about understanding internet safety made simple.",
+    "slug": "understanding_internet_safety_made_simple"
+  },
+  {
+    "title": "Beginner Guide to Time Management",
+    "date": "2026-03-08",
+    "description": "Educational guide about beginner guide to time management.",
+    "slug": "beginner_guide_to_time_management"
+  },
+  {
+    "title": "Complete Introduction to Personal Finance",
+    "date": "2026-03-04",
+    "description": "Educational guide about complete introduction to personal finance.",
+    "slug": "complete_introduction_to_personal_finance"
+  },
+  {
+    "title": "How Productivity Works",
+    "date": "2026-02-24",
+    "description": "Educational guide about how productivity works.",
+    "slug": "how_productivity_works"
+  },
+  {
+    "title": "Complete Introduction to Computer Skills",
+    "date": "2026-03-26",
+    "description": "Educational guide about complete introduction to computer skills.",
+    "slug": "complete_introduction_to_computer_skills"
+  },
+  {
+    "title": "How often to replace air filters",
+    "date": "2026-02-07",
+    "description": "Educational guide about how often to replace air filters.",
+    "slug": "how_often_to_replace_air_filters"
+  },
+  {
+    "title": "Complete Introduction to Smart Devices",
+    "date": "2026-03-06",
+    "description": "Educational guide about complete introduction to smart devices.",
+    "slug": "complete_introduction_to_smart_devices"
+  },
+  {
+    "title": "Understanding Digital Organization Made Simple",
+    "date": "2026-03-25",
+    "description": "Educational guide about understanding digital organization made simple.",
+    "slug": "understanding_digital_organization_made_simple"
+  },
+  {
+    "title": "What does Bluetooth do",
+    "date": "2026-02-08",
+    "description": "Educational guide about what does bluetooth do.",
+    "slug": "what_does_bluetooth_do"
+  },
+  {
+    "title": "",
+    "date": "",
+    "description": "",
+    "slug": ""
+  },
+  {
+    "title": "Step-by-Step Time Management Guide",
+    "date": "2026-02-28",
+    "description": "Educational guide about step-by-step time management guide.",
+    "slug": "step_by_step_time_management_guide"
+  },
+  {
+    "title": "How to Clean a Coffee Maker",
+    "date": "2026-02-22",
+    "description": "Educational guide about how to clean a coffee maker.",
+    "slug": "how_to_clean_a_coffee_maker"
+  },
+  {
+    "title": "Complete Introduction to Internet Safety",
+    "date": "2026-03-21",
+    "description": "Educational guide about complete introduction to internet safety.",
+    "slug": "complete_introduction_to_internet_safety"
+  },
+  {
+    "title": "How to organize email inbox",
+    "date": "2026-02-04",
+    "description": "Educational guide about how to organize email inbox.",
+    "slug": "how_to_organize_email_inbox"
   },
   {
     "title": "How Home Maintenance Works",
@@ -216,21 +210,33 @@
     "slug": "understanding_household_cleaning_made_simple"
   },
   {
-    "title": "How Digital Organization Works",
-    "date": "2026-03-19",
-    "description": "Educational guide about how digital organization works.",
-    "slug": "how_digital_organization_works"
-  },
-  {
     "title": "How Technology Basics Works",
     "date": "2026-03-17",
     "description": "Educational guide about how technology basics works.",
     "slug": "how_technology_basics_works"
   },
   {
-    "title": "Understanding Digital Organization Made Simple",
-    "date": "2026-03-24",
-    "description": "Educational guide about understanding digital organization made simple.",
-    "slug": "understanding_digital_organization_made_simple"
+    "title": "How Digital Organization Works",
+    "date": "2026-03-19",
+    "description": "Educational guide about how digital organization works.",
+    "slug": "how_digital_organization_works"
+  },
+  {
+    "title": "Complete Introduction to Digital Organization",
+    "date": "2026-03-10",
+    "description": "Educational guide about complete introduction to digital organization.",
+    "slug": "complete_introduction_to_digital_organization"
+  },
+  {
+    "title": "How Technology Basics Works",
+    "date": "2026-03-03",
+    "description": "Educational guide about how technology basics works.",
+    "slug": "how_technology_basics_works"
+  },
+  {
+    "title": "Understanding Technology Basics Made Simple",
+    "date": "2026-03-20",
+    "description": "Educational guide about understanding technology basics made simple.",
+    "slug": "understanding_technology_basics_made_simple"
   }
 ]
